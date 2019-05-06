@@ -1,0 +1,125 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [48, 9],
+		"start": [1, 7],
+		"goal": [44, 3, 2, 5]
+	},
+
+	"physics": {
+		"gravity": 1.25,
+		"terminal_velocity": 36
+	},
+
+	"music": "assets/sounds/theme.ogg",
+
+	"background": {
+		"color": [0, 0, 0],
+		"image1": "assets/images/backgrounds/Sky.png",
+		"image2": "assets/images/backgrounds/Hills_2.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.0
+	},
+
+	"tiles": {
+		"midground": [
+			[44.8, 4, "FlagTop"],
+			[44.8, 5, "FlagPole"],
+			[44.8, 6, "FlagPole"],
+			[44.8, 7, "FlagPole"]
+		],
+
+		"main": [
+			[1, 8, "Grass"],
+			[2, 8, "Grass"],
+			[3, 8, "Grass"],
+			[0, 8, "Grass"],
+			[4, 8, "Grass"],
+			[5, 8, "Grass"],
+			[6, 8, "Grass"],
+			[7, 8, "Grass"],
+			[8, 8, "Grass"],
+			[9, 8, "Grass"],
+			[10, 8, "Grass"],
+			[11, 8, "Grass"],
+			[12, 8, "Grass"],
+			[13, 8, "Grass"],
+			[14, 8, "Grass"],
+			[15, 8, "Grass"],
+			[16, 8, "Grass"],
+			[17, 8, "Grass"],
+			[18, 8, "Grass"],
+			[19, 8, "Grass"],
+			[20, 8, "Grass"],
+			[21, 8, "Grass"],
+			[22, 8, "Grass"],
+			[23, 8, "Grass"],
+			[24, 8, "Grass"],
+			[25, 8, "Grass"],
+			[26, 8, "Grass"],
+			[27, 8, "Grass"],
+			[28, 8, "Grass"],
+			[29, 8, "Grass"],
+			[30, 8, "Grass"],
+			[31, 8, "Grass"],
+			[32, 8, "Grass"],
+			[33, 8, "Grass"],
+			[34, 8, "Grass"],
+			[35, 8, "Grass"],
+			[36, 8, "Grass"],
+			[37, 8, "Grass"],
+			[38, 8, "Grass"],
+			[39, 8, "Grass"],
+			[40, 8, "Grass"],
+			[41, 8, "Grass"],
+			[42, 8, "Grass"],
+			[43, 8, "Grass"],
+			[44, 8, "Grass"],
+			[45, 8, "Grass"],
+			[46, 8, "Grass"],
+			[47, 8, "Grass"],
+
+			[8, 3, "Platform"],
+			[9, 3, "Platform"],
+			[10, 3, "Platform"],
+			[11, 3, "Platform"],
+			[12, 3, "Platform"],
+
+			[15, 5, "Platform"],
+
+			[20, 5, "Platform"],
+			[20, 6, "Platform"],
+			[20, 7, "Platform"],
+
+			[27, 6, "Platform"],
+			[28, 6, "Platform"],
+			[29, 6, "Platform"],
+			[30, 6, "Platform"],
+			[31, 6, "Platform"],
+
+			[33, 4, "Platform"],
+			[34, 4, "Platform"],
+			[35, 4, "Platform"]
+		],
+
+		"foreground": [
+			[12, 7, "Plant"],
+			[19, 7, "Plant"],
+			[34, 7, "Plant"]
+		]
+	},
+
+	"items": [
+		[10, 2, "Gem"],
+		[20, 4, "Gem"],
+		[29, 5, "Gem"],
+		[34, 3, "Gem"]
+	],
+
+	"enemies": [
+		[11, 2, "BasicEnemy"],
+		[18, 7, "BasicEnemy"],
+		[30, 5, "PlatformEnemy"],
+		[34, 3, "PlatformEnemy"]
+	]
+}
