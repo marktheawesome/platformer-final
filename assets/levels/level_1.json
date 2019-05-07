@@ -7,7 +7,7 @@
 	},
 
 	"physics": {
-		"gravity": 1.25,
+		"gravity": 1.5,
 		"terminal_velocity": 36
 	},
 
@@ -18,7 +18,7 @@
 		"image1": "assets/images/backgrounds/Sky.png",
 		"image2": "assets/images/backgrounds/Hills_2.png",
 		"parallax_speed1": 0.6,
-		"parallax_speed2": 0.0
+		"parallax_speed2": 0.3
 	},
 
 	"tiles": {
